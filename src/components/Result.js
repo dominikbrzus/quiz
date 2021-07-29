@@ -18,13 +18,13 @@ const Result = ({score, setScore}) => {
     }
     // Comment Score is a comment for score. I created a few variants.
     const commentScore = () => {
-        if(score <= 3) {
+        if(endScore <= 3) {
             return <h3 className='result__comment'>Wynik poniżej przeciętnej. Ćwicz więcej!</h3>
-        } else if (score > 3 && score <= 6) {
+        } else if (endScore > 3 && endScore <= 6) {
             return <h3 className='result__comment'>Całkiem nieźle sobie poradziłeś!</h3>
-        } else if (score > 6 && score <= 9) {
+        } else if (endScore > 6 && endScore <= 9) {
             return <h3 className='result__comment'>Bardzo dobry wynik! Gratulacje!</h3>
-        } else if (score >= 10) {
+        } else if (endScore >= 10) {
             return <h3 className='result__comment'>Fenomenalny wynik! Gratulacje!</h3>
         }
     }
