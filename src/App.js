@@ -13,13 +13,13 @@ function App() {
     <BrowserRouter>
       <Header/>
       <Switch>
-          <Route exact path='/'>
+          <Route exact path='/quiz-react/'>
         <Start/>
           </Route>
-          <Route path='/quiz'>
+          <Route path='/quiz-react/quiz'>
             <Quiz score={score} setScore={setScore}/>
             </Route>
-        <Route path='/result'>
+        <Route path='/quiz-react/result'>
           <Result score={score} setScore={setScore}/>
         </Route>
       </Switch>
