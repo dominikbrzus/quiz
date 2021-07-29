@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Quiz APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is only example Quiz App with React. In this app I created 10 questions. You can choose only one answer.
+I used React Router, because App switches beetwen three areas (Start, Quiz, Result).
+If your answer will be right you will get one point. The right answer lights up green, wrong answers light up red.
+Points add up. In the Result area you will see your current score (max. 10 points).
 
 ## Available Scripts
 

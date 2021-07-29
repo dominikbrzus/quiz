@@ -2,9 +2,8 @@ import { useHistory} from 'react-router-dom';
 
 const Result = ({score, setScore}) => {
 
-
     const history = useHistory()
-
+    
     const handleClickBack = () => {
         setScore(0)
         const home = {
